@@ -1,0 +1,7 @@
+bin/org/darkstar/geoutils/Coordinate.class
+bin/org/darkstar/geoutils/CoordinateException.class
+bin/org/darkstar/geoutils/CoordinateFactory$Hemisphere.class
+bin/org/darkstar/geoutils/CoordinateFactory.class
+bin/org/darkstar/geoutils/GeoConverter.class
+bin/org/darkstar/geoutils/GeoUtils.class
+bin/org/darkstar/test/CoordinateTest.class
