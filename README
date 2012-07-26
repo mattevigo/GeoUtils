@@ -1,0 +1,19 @@
+Overview
+========
+
+This is a simple tool that may be useful when you need to convert latitude and longitude in UTM coordinate.
+
+Supported systems:
+	- WGS84
+	- UTM-WGS84
+	- Gauss-Boaga
+
+Usage
+=====
+
+
+CoordinateFactory factory = new CoordinateFactory();
+Coordinate c = factory.getCoordinateFromPolar("43d 47' 49.3\"", "11d 13' 01.0\"");
+
+use getter and setter to modify and re-calculate coordinates
+

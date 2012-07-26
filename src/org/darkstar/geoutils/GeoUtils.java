@@ -10,10 +10,7 @@ package org.darkstar.geoutils;
 public class GeoUtils 
 {
 	/**
-	 * Data una stringa di tipo (stretto) 43d 48' 17,0340000000334" (l'ultimo
-	 * doppio apice sta per 'secondi') ritorna un fattore intero che e' la
-	 * coordinata dell'asse richiesto (X o Y). esempio di chiamata:
-	 * GeoUtils.convertFromDegMinSec( "43d 48' 13,6560000000441\"",GeoConverter.X_ORIGIN_COORD,GeoConverter.X_FACTOR)
+	 * Convert a sessagesimal angle (format: 43d 48' 17,0340000000334") in deg (double) 
 	 * 
 	 * @param source
 	 * @param factor
